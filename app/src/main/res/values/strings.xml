@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NFC Reader Mode Bug Example</string>
+    <string name="initial_message">Hello there.\nYou are now in the MainActivity and ReaderMode is Enabled. Please turn up the ringer volume of your device to hear when new NFC input is incoming!\nAfter you\'ve done that please put your NFC tag to the device and keep it there through the whole flow.</string>
+    <string name="nfc_reaction">Reacting to NFC input, now we\'d transfer stuff between the phone and the device.\nPlease keep your tag on the device and start a new activity with the button below, this will also disable ReaderMode.</string>
+
+    <string name="start_activity_button_label">Start new activity</string>
+    <string name="new_activity_message">What? Did you hear that too? Why did the new activity react to the tag as if it were new?\nThat is the problem. Why does a new activity react to NFC input that was already reacted to?\nThis could even be worse! What if the user has a default NFC reading app and that is suddenly started even though the input isn\'t new?</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_new">NewActivity</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>
