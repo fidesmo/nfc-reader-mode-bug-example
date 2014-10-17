@@ -16,3 +16,6 @@ build/
 
 # Ant
 uiautomator/bin
+/.idea/workspace.xml
+.DS_Store
+/build
